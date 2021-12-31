@@ -1,5 +1,5 @@
 import { StyleSheet, Text, View } from 'react-native';
-import Welcome from './components/Welcome'
+import MainMenu from './components/MainMenu'
 
 export default function App() {
   return (
