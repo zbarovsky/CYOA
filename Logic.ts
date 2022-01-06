@@ -27,6 +27,6 @@ let testGraph: {id: number, nodes: object}[] = [
 
 
 
-function traverse(id: number) {
+export function traverse(id: number) {
     return testGraph[id].nodes
 }

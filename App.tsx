@@ -1,11 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native';
+import { NativeRouter, Route, Link } from "react-router-native";
 import MainMenu from './components/MainMenu'
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-    </View>
+    <NativeRouter>
+      <View style={styles.container}>
+        <Route path='/' element={<MainMenu />}/>
+      </View>
+    </NativeRouter>
   );
 }
 

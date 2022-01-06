@@ -1,11 +1,8 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button, Alert } from 'react-native';
-import Story from './Gameplay/Story';
+import { NativeRouter, Route, Link } from "react-router-native";
+import Story from './Gameplay/Story'
 
-
-interface Props {
-    
-}
 
 /* 
 TODO:
@@ -14,7 +11,8 @@ Description
 Start Button -> Story
 */
 
-const MainMenu: React.FC<Props> = () => {
+const MainMenu = () => {
+
     return (
         <View>
             <Text>Diseases of Civilizations</Text>
